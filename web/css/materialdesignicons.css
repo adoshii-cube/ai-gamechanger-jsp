@@ -5,7 +5,7 @@
   src: url("../font/materialdesignicons/materialdesignicons-webfont.svg");
   src: url("../font/materialdesignicons/materialdesignicons-webfont.ttf");
   src: url("../font/materialdesignicons/materialdesignicons-webfont.woff");
-  src: url("../font/materialdesignicons/materialdesignicons-webfont.woff2");
+  /*src: url("../font/materialdesignicons/materialdesignicons-webfont.woff2");*/
   /*src: url("../font/materialdesignicons-webfont.eot?#iefix&v=1.7.22") format("embedded-opentype"), url("../fonts/materialdesignicons-webfont.woff2?v=1.7.22") format("woff2"), url("../fonts/materialdesignicons-webfont.woff?v=1.7.22") format("woff"), url("../fonts/materialdesignicons-webfont.ttf?v=1.7.22") format("truetype"), url("../fonts/materialdesignicons-webfont.svg?v=1.7.22#materialdesigniconsregular") format("svg");*/
   font-weight: normal;
   font-style: normal;

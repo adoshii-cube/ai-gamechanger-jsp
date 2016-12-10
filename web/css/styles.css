@@ -126,6 +126,11 @@ textarea{
     border-bottom: 4px solid #0c5d8f;
 }
 
+.android-navigation .mdl-navigation__link:focus {
+    border-bottom: 4px solid #0c5d8f;
+    outline: none;
+}
+
 .android-search-box {
     order: 2;
     margin-left: 16px;
@@ -659,6 +664,7 @@ section.section--center {
 .social{
     background: #0c5d8f;
     line-height: initial;
+    min-width: 36px;
 }
 
 .social:hover,
