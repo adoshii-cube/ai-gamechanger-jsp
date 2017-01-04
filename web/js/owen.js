@@ -1,3 +1,5 @@
+//document.addEventListener('contextmenu', event => event.preventDefault());
+
 $(document).ready(function () {
     var nav = $('a');
     if (nav.length) {
