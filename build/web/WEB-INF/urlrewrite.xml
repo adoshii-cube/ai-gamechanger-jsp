@@ -5,15 +5,12 @@
     "http://www.tuckey.org/res/dtds/urlrewrite4.0.dtd">
 
 <urlrewrite>
-
     <rule>
-       <from>^/some/olddir/(.*)$</from>
-       <to type="redirect">/very/newdir/$1</to>
+        <from>^index.html$</from>
+        <to type="redirect">/pages/index.html$1</to>
     </rule>
-
-    <rule match-type="wildcard">
-       <from>/blog/archive/**</from>
-       <to type="redirect">/roller/history/$1</to>
-    </rule>
-
+    <outbound-rule>
+        <from>^/(.*).html$</from>
+        <to>/$1</to>
+    </outbound-rule>
 </urlrewrite>
