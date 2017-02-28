@@ -973,11 +973,11 @@ div .mdl-textfield__label:after {
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.15);
     /*    -webkit-filter: grayscale(50%);  Safari 6.0 - 9.0 
         filter: grayscale(50%);*/
-/*    -webkit-filter: blur(1px);
-    -moz-filter: blur(1px);
-    -o-filter: blur(1px);
-    -ms-filter: blur(1px);
-    filter: blur(1px);*/
+    /*    -webkit-filter: blur(1px);
+        -moz-filter: blur(1px);
+        -o-filter: blur(1px);
+        -ms-filter: blur(1px);
+        filter: blur(1px);*/
 }
 
 .blog-posts .toms-dilemma .mdl-card__media {
@@ -1041,6 +1041,17 @@ div .mdl-textfield__label:after {
 .blog-posts .blog7 > .mdl-card__media {
     background: url(../images/blogs/blog7.png) #52514f center / cover no-repeat;
     height: 280px;
+}
+
+.blog-posts .managing-attrition .mdl-card__media {
+    background: url(../images/blogs/blog8.png) #56aeb0 center / cover no-repeat
+}
+
+.blog-posts .blog8 > .mdl-card__media {
+    background: url(../images/blogs/blog8.png) #56aeb0 center no-repeat;
+    height: 280px;
+    background-size: 50%;
+    background-position-x: 100%;
 }
 
 
