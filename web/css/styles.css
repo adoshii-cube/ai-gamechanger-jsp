@@ -1044,7 +1044,7 @@ div .mdl-textfield__label:after {
 }
 
 .blog-posts .managing-attrition .mdl-card__media {
-    background: url(../images/blogs/blog8.png) #56aeb0 center / cover no-repeat
+    background: url(../images/blogs/blog8.png) #56aeb0 center / contain no-repeat
 }
 
 .blog-posts .blog8 > .mdl-card__media {
