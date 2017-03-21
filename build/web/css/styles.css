@@ -507,6 +507,12 @@ textarea{
     width: 100%;
 }
 
+.advisors .mdl-card__media img {
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+
 .android-card-container .mdl-card__title {
     background: transparent;
     height: auto;
