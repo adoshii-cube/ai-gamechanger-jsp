@@ -607,7 +607,7 @@ textarea{
 }
 
 section.section--center {
-    max-width: 860px;
+    /*max-width: 860px;*/
     align-items: center;
     justify-content: center;
 }
@@ -638,14 +638,16 @@ section.section--center {
     padding-bottom: 1em;
 }
 
+
 .client1{
     background-image: url("../images/clients/SVG_Client1.svg");
-    height: 50px;
+    height: 100px;
 }
 
 .client2{
     background-image: url("../images/clients/SVG_Client2.svg");
-    height: 60px;
+    height: 70px;
+    background-size: contain;
 }
 
 .client3{
@@ -660,21 +662,37 @@ section.section--center {
 
 .client5{
     background-image: url("../images/clients/SVG_Client5.svg");
+    height: 100px;
 }
 
 .client6{
     background-image: url("../images/clients/SVG_Client6.svg");
-    height: 30px;
+    height: 60px;
 }
 
 .client7{
     background-image: url("../images/clients/SVG_Client7.svg");
-    height: 40px;
+    height: 80px;
 }
 
 .client8{
     background-image: url("../images/clients/SVG_Client8.svg");
-    height: 60px;
+    height: 80px;
+}
+
+.client9{
+    background-image: url("../images/clients/SVG_Client9.svg");
+    height: 90px;
+}
+
+.client10{
+    background-image: url("../images/clients/SVG_Client10.svg");
+    height: 45px;
+}
+
+.client11{
+    background-image: url("../images/clients/SVG_Client11.svg");
+    height: 80px;
 }
 
 .social{
