@@ -1090,6 +1090,19 @@ div .mdl-textfield__label:after {
     background-position-x: 100%;
 }
 
+.blog-posts .employee-experience .mdl-card__media {
+    background: url(../images/blogs/blog10.jpg) #ffffff center / cover no-repeat
+}
+
+.blog-posts .blog10 > .mdl-card__media {
+    background: url(../images/blogs/blog10.jpg) #ffffff center no-repeat;
+    height: 280px;
+    background-size: 100%;
+    background-position-y: 20%;
+    /* background-position-x: 100%; */
+
+}
+
 
 .blog-posts .mdl-card__media {
     box-sizing: border-box;
@@ -1196,10 +1209,10 @@ div .mdl-textfield__label:after {
 .blog-posts .meta + .mdl-card__supporting-text ul{
     max-width: 512px;
     margin: 16px auto;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 28px;
-    font-weight: 500;
-    list-style-type: none;
+    /*font-weight: 500;*/
+    /*list-style-type: none;*/
 }
 
 .blog-posts .meta + .mdl-card__supporting-text ol{
@@ -1468,5 +1481,9 @@ div .mdl-textfield__label:after {
 
     .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
         bottom: 0px;
+    }
+
+    .blog-posts .blog10 > .mdl-card__media {
+        background-size: cover;
     }
 }
