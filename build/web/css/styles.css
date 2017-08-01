@@ -1103,6 +1103,9 @@ div .mdl-textfield__label:after {
 
 }
 
+.blog-posts .predictive-analytics-in-hr .mdl-card__media {
+    background: url(../images/blogs/blog11.jpg) #23BEC2 center / contain no-repeat;
+}
 
 .blog-posts .mdl-card__media {
     box-sizing: border-box;
