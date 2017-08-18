@@ -1107,6 +1107,19 @@ div .mdl-textfield__label:after {
     background: url(../images/blogs/blog11.jpg) #23BEC2 center / contain no-repeat;
 }
 
+.blog-posts .blockchain-future-of-work .mdl-card__media {
+    background: url(../images/blogs/blog12.jpg) #ffffff bottom / cover no-repeat
+}
+
+.blog-posts .blog12 > .mdl-card__media {
+    background: url(../images/blogs/blog12.jpg) #08131b center no-repeat;
+    height: 280px;
+    background-size: 100%;
+    /*background-position-y: 20%;*/
+    /* background-position-x: 100%; */
+
+}
+
 .blog-posts .mdl-card__media {
     box-sizing: border-box;
     background-size: cover;
@@ -1224,6 +1237,11 @@ div .mdl-textfield__label:after {
     font-size: 16px;
     line-height: 28px;
     /*font-weight: 500;*/
+}
+
+.mdl-card__supporting-text h4{
+    max-width: 512px;
+    margin: 16px auto;
 }
 
 .blog-posts .mdl-card__media .back-button{
