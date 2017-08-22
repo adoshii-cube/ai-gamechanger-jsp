@@ -16,7 +16,7 @@
                     <i class="mdi mdi-linkedin mdi-light mdi-24px"></i>
                 </button>
                 &nbsp;
-                <button class="mdl-mega-footer--social-btn mdl-button mdl-js-button mdl-js-ripple-effect social" onclick="location.href='mailto:owen@owenanalytics.com?Subject=Hi%20OWEN'">
+                <button class="mdl-mega-footer--social-btn mdl-button mdl-js-button mdl-js-ripple-effect social" onclick="location.href = 'mailto:owen@owenanalytics.com?Subject=Hi%20OWEN'">
                     <i class="mdi mdi-email mdi-light mdi-24px"></i>
                 </button>
             </div>
@@ -75,23 +75,27 @@
                     <li><a href="employee-experience">Employee experience in the Cognitive Computing Era</a></li>
                 </ul>
             </div>
-<!--            <div class="mdl-mega-footer--drop-down-section">
-                <h1 class="mdl-mega-footer--heading">Contact Us</h1>
-                <ul class="mdl-mega-footer--link-list">
-                    <li><a href="contactus#git">Get in touch</a></li>
-                    <li><a href="contactus#locations">Locations</a></li>
-                </ul>
-            </div>-->
+            <!--            <div class="mdl-mega-footer--drop-down-section">
+                            <h1 class="mdl-mega-footer--heading">Contact Us</h1>
+                            <ul class="mdl-mega-footer--link-list">
+                                <li><a href="contactus#git">Get in touch</a></li>
+                                <li><a href="contactus#locations">Locations</a></li>
+                            </ul>
+                        </div>-->
         </div>
 
         <div class="mdl-mega-footer--bottom-section">
             <div class="mdl-logo">
-                © 2017 i-Cube Analytics & Data Services - All rights reserved.
+                © <span id="year"></span> i-Cube Analytics & Data Services - All rights reserved.
             </div>
             <a class="android-link mdl-typography--font-light" href="">Privacy Policy</a>
         </div>
 
         <!--</footer>-->
         <script src="js/owen.js"></script>
+        <script type="text/javaScript">
+            var theDate=new Date();
+            document.getElementById('year').innerHTML  = theDate.getFullYear();
+        </script>
     </body>
 </html>

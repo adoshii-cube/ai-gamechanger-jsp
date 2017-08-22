@@ -1,0 +1,186 @@
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+body {
+    margin: 0;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+/* Disable ugly boxes around images in IE10 */
+a img{
+    border: 0px;
+}
+
+a{
+    color:#303f9f;
+    text-decoration: none;
+}
+
+::-moz-selection {
+    background-color: #303f9f;
+    color: #fff;
+}
+
+::selection {
+    background-color: #303f9f;
+    color: #fff;
+}
+
+.android-search-box .mdl-textfield__input {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+textarea{
+    max-height:120px    
+}
+
+.android-mobile-title {
+    display: none !important;
+}
+
+
+.android-logo-image {
+    /*height: 28px;*/
+    width: 140px;
+}
+
+#contact-us,
+#show-dialog{
+    position: fixed;
+    display: block;
+    right: 0;
+    bottom: 0;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    z-index: 900;
+}
+
+.android-link {
+    text-decoration: none;
+    color: #303f9f !important;
+}
+
+.android-link:hover {
+    color: #303f9f !important;
+}
+
+.android-link .material-icons {
+    position: relative;
+    top: -1px;
+    vertical-align: middle;
+}
+
+.android-card-container {
+}
+
+.android-card-container .mdl-card__media {
+    overflow: hidden;
+    background: transparent;
+}
+
+.android-card-container .mdl-card__media img {
+    width: 100%;
+}
+
+.android-card-container .mdl-card__title {
+    background: transparent;
+    height: auto;
+    display: inline-block;
+}
+
+.android-card-container .mdl-card__subtitle h5{
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
+
+.android-card-container .mdl-card__title-text {
+    color: black;
+    height: auto;
+}
+
+.android-card-container .mdl-card__supporting-text {
+    height: auto;
+    color: black;
+    padding-bottom: 56px;
+}
+
+.android-card-container .mdl-card__actions {
+    position: absolute;
+    bottom: 0;
+}
+
+.android-card-container .mdl-card__actions a {
+    /*border-top: none;*/
+    font-size: 16px;
+    /*float: left;*/
+    min-width: 0;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*color: #303f9f;*/
+}
+
+.mdl-logo{
+    color: #303f9f;
+}
+
+.mdl-grid {
+    /*padding: 0!important;*/
+}
+
+.page-content{
+    width: auto;
+    margin: auto;
+    max-width: 978px;
+}
+
+.centerDiv{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: transparent;
+}
+
+.mdl-card__title img{
+    width: 100%;
+}
+
+.mdl-layout__content{
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 79%, rgba(48, 63, 159, 0.65) 100%);
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 79%, rgba(48, 63, 159, 0.65) 100%);
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 79%, rgba(48, 63, 159, 0.65) 100%);
+    background: linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 79%, rgba(48, 63, 159, 0.65) 100%);
+    background-size: cover;
+}
+/**** Mobile layout ****/
+@media (max-width: 900px) {
+    .android-navigation-container {
+        display: none;
+    }
+
+    .android-title {
+        display: none !important;
+    }
+
+    .android-mobile-title {
+        display: block !important;
+        position: absolute;
+        left: calc(50% - 70px);
+        top: 12px;
+        transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}

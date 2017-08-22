@@ -195,7 +195,7 @@ textarea{
     height: 100vh;
     width: auto;
     /* background-color: #f3f3f3; */
-    background: url(../images/slide01.jpg) center no-repeat #bdd3ff;
+    background: url(../images/slide01.jpg) center no-repeat #c3d7f2;
     background-size: cover;
     background-position-y: -20%;
 }
