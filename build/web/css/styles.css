@@ -716,6 +716,15 @@ section.section--center {
     min-height: 150px;
 }
 
+.raja{
+    text-align: center;
+}
+
+.raja > img{
+    /*width: 65% !important;*/
+    width: 47% !important;
+}
+
 .career-card{
     height: 110%;
     margin-left: -5%;
